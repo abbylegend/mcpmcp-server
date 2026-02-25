@@ -1,20 +1,29 @@
-# mcpmcp-server
+# 🌌 NeoLux Perfumes – Futuristic Cosmetics Sales Website
 
-Discover, setup, and integrate MCP servers with your favorite clients. Unlock the full potential of AI in your daily workflow.
+A modern, futuristic full sales web page designed for luxury cosmetics and perfumes.
 
-## Installation/usage:
+✨ Neon UI  
+🌗 Automatic smooth theme changer  
+🛍️ Product showcase  
+🚚 Payment on Delivery  
+🤖 AI Chatbot assistant  
+💬 WhatsApp direct contact  
+📱 Fully responsive  
+🚀 GitHub Pages ready  
 
-Update the configuration of your MCP client to the following: 
+---
 
-```json
-{
-  "mcpServers": {
-    "mcpmcp": {
-      "command": "npx",
-      "args": ["-y", "mcp-remote@latest", "https://mcpmcp.io/mcp"]
-    }
-  }
-}
-```
+## 📦 Features
 
-(**note:** this config definitely works for Claude Desktop on macOS. If you need variations for other apps or platforms check the [homepage](https://mcpmcp.io/#install)
+- Futuristic neon design
+- Smooth automatic theme color transition
+- Product cards with hover glow effects
+- Payment on delivery system
+- Built-in AI chatbot (basic assistant)
+- Direct WhatsApp contact button
+- Mobile responsive layout
+- Lightweight & fast loading
+
+---
+
+## 📁 Project Structure
