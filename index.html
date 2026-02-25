@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NeoLux Perfumes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1 class="logo">NeoLux</h1>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Luxury Fragrance Redefined</h2>
+  <p>Premium perfumes & cosmetics. Pay on delivery.</p>
+  <button onclick="scrollToProducts()">Shop Now</button>
+</section>
+
+<section id="products" class="products">
+  <h2>Featured Perfumes</h2>
+
+  <div class="product-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539" />
+      <h3>Midnight Essence</h3>
+      <p>$79 - Pay on Delivery</p>
+      <button onclick="orderProduct('Midnight Essence')">Order Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de" />
+      <h3>Golden Aura</h3>
+      <p>$95 - Pay on Delivery</p>
+      <button onclick="orderProduct('Golden Aura')">Order Now</button>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600180758890-6f7e69c12d3c" />
+      <h3>Rose Elixir</h3>
+      <p>$68 - Pay on Delivery</p>
+      <button onclick="orderProduct('Rose Elixir')">Order Now</button>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>About NeoLux</h2>
+  <p>
+    We specialize in premium perfumes and luxury cosmetics.
+    All payments are made securely on delivery for your comfort.
+  </p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <button onclick="openWhatsApp()">Chat on WhatsApp</button>
+</section>
+
+<!-- AI Chatbot -->
+<div class="chatbot">
+  <div class="chat-header">AI Assistant</div>
+  <div class="chat-body" id="chatBody"></div>
+  <input type="text" id="chatInput" placeholder="Ask about orders..." onkeypress="handleChat(event)">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
